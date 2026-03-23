@@ -1,0 +1,34 @@
+
+---
+
+# 📄 2. `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Environment variables
+.env
+
+# Model files (optional if large)
+# churn_model.pkl
+# scaler.pkl
+
+# Logs
+*.log
